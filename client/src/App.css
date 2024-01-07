@@ -1,0 +1,162 @@
+#{
+
+}
+
+body, div, h3, p, ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+.container__nav{
+  font-size: large;
+  height: 60px;
+  width: 100vw;
+  line-height:55px;
+  flex-shrink: 0;
+  background-color: rgba(175, 175, 175, 0.3);
+  text-align: center;
+  color: black;
+}
+
+.container__nav a{
+  text-decoration: none;
+  padding:0 5px;
+  margin:0 15px 15px;
+}
+
+.container__nav li:link{
+  color: black;
+  border-bottom:10px solid rgb(75, 192, 192);
+}
+
+.container__nav li:visited {
+  color: black;
+  border-bottom:10px solid rgb(75, 192, 192);
+}
+
+.container__nav li:hover {
+  border-bottom:5px solid rgb(75, 192, 192);
+}
+
+.container__nav li:active {
+  color: black;
+  border-bottom:5px solid rgb(75, 192, 192);
+}
+
+.container__nav ul{
+  list-style: none;
+}
+
+.container__nav li{
+  float: left;
+  color: black;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.home {
+  text-align: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 600px;
+  margin-top: 40px;
+}
+
+.home img {
+  height: 300px;
+  width: 300px;
+  padding: 25px 0;
+}
+
+.search--Btn {
+  margin-left: 30px;
+  border-radius: 3px;
+}
+
+.container__searchBar {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 30px 15px 30px;
+  width: 850px;
+}
+
+/* .container__searchBar label {
+  height: 40px;
+  margin: 10px;
+} */
+
+#stockSearch, .container__searchIndustry {
+  width: 300px;
+}
+
+.container__searchIndustry{
+  margin-left: 30px;
+}
+
+.container__searchStock, .container__searchIndustry {
+  display: inline-block;
+}
+
+#stockSearch, .container__searchIndustry, .search--Btn{
+  height: 30px;
+}
+
+.ag-theme-alpine {
+  margin:20px auto;
+}
+
+.ag-theme-alpine a {
+ text-decoration: none;
+}
+
+.container__datePicker{
+  height: 60px;
+  padding: 20px 20px 0 20px;
+  margin-left: 100px;
+  
+}
+
+.container__chart {
+  height: 600px;
+  width: 1200px;
+  margin: 0 auto 30px;
+}
